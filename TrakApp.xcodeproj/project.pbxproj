@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73B26F8E29D7157800162C73 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 73B26F8C29D7157800162C73 /* locations.json */; };
+		73B26F8F29D7157800162C73 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 73B26F8D29D7157800162C73 /* tips.json */; };
 		73B54AD629D70F7D00F270B1 /* TrakAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B54AD529D70F7D00F270B1 /* TrakAppApp.swift */; };
 		73B54AD829D70F7D00F270B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B54AD729D70F7D00F270B1 /* ContentView.swift */; };
 		73B54ADA29D70F7E00F270B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B54AD929D70F7E00F270B1 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73B26F8C29D7157800162C73 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		73B26F8D29D7157800162C73 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		73B54AD229D70F7D00F270B1 /* TrakApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrakApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B54AD529D70F7D00F270B1 /* TrakAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrakAppApp.swift; sourceTree = "<group>"; };
 		73B54AD729D70F7D00F270B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				73B54AD529D70F7D00F270B1 /* TrakAppApp.swift */,
+				73B26F8C29D7157800162C73 /* locations.json */,
+				73B26F8D29D7157800162C73 /* tips.json */,
 				73B54AD729D70F7D00F270B1 /* ContentView.swift */,
 				73B54AD929D70F7E00F270B1 /* Assets.xcassets */,
 				73B54ADB29D70F7E00F270B1 /* Preview Content */,
@@ -126,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				73B54ADD29D70F7E00F270B1 /* Preview Assets.xcassets in Resources */,
+				73B26F8F29D7157800162C73 /* tips.json in Resources */,
+				73B26F8E29D7157800162C73 /* locations.json in Resources */,
 				73B54ADA29D70F7E00F270B1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

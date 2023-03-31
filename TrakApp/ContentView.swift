@@ -9,13 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("This is a test!")
+        //VStack to put both in the same content view
+        VStack{
+            //Image (Image name) (built in size)
+            Image("highlands")
+            //won't fill out completly because of curves of the display
+                .resizable()
+            //scale to available space (correct space)
+                .scaledToFit()
+            
+            Text("The Highlands")
         }
-        .padding()
+        
     }
 }
 
