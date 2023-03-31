@@ -19,6 +19,10 @@ struct ContentView: View {
                 .scaledToFit()
             
             Text("The Highlands")
+                .font(.largeTitle)
+                .bold()
+                //if text too long for 1 line, center it
+                .multilineTextAlignment(.center)
         }
         
     }
