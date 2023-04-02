@@ -11,7 +11,11 @@ import SwiftUI
 struct TrakAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // First Thing to Show: ContentView
+            NavigationView{
+                ContentView()
+            }
+            
         }
     }
 }
