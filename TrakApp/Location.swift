@@ -11,7 +11,7 @@ import Foundation
 
 // Custom data strucutre called Location
 
-struct Location: Decodable{
+struct Location: Decodable, Identifiable{
     let id: Int
     let name: String
     let country: String
