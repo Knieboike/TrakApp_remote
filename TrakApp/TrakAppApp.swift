@@ -13,7 +13,9 @@ struct TrakAppApp: App {
         WindowGroup {
             // First Thing to Show: ContentView
             NavigationView{
-                ContentView()
+                //ContentView(location: Location.example)
+                //first location will load
+                ContentView(location: Locations().primary)
             }
             
         }

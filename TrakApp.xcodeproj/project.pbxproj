@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		733A3AF829D9D9DA00FD453E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733A3AF729D9D9DA00FD453E /* Location.swift */; };
+		733A3AFA29D9DEE800FD453E /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733A3AF929D9DEE800FD453E /* Locations.swift */; };
 		73B26F8E29D7157800162C73 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 73B26F8C29D7157800162C73 /* locations.json */; };
 		73B26F8F29D7157800162C73 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 73B26F8D29D7157800162C73 /* tips.json */; };
 		73B54AD629D70F7D00F270B1 /* TrakAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B54AD529D70F7D00F270B1 /* TrakAppApp.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		733A3AF729D9D9DA00FD453E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		733A3AF929D9DEE800FD453E /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		73B26F8C29D7157800162C73 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		73B26F8D29D7157800162C73 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		73B54AD229D70F7D00F270B1 /* TrakApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrakApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +63,8 @@
 				73B26F8C29D7157800162C73 /* locations.json */,
 				73B26F8D29D7157800162C73 /* tips.json */,
 				73B54AD729D70F7D00F270B1 /* ContentView.swift */,
+				733A3AF929D9DEE800FD453E /* Locations.swift */,
+				733A3AF729D9D9DA00FD453E /* Location.swift */,
 				73B54AD929D70F7E00F270B1 /* Assets.xcassets */,
 				73B54ADB29D70F7E00F270B1 /* Preview Content */,
 			);
@@ -146,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				73B54AD829D70F7D00F270B1 /* ContentView.swift in Sources */,
+				733A3AF829D9D9DA00FD453E /* Location.swift in Sources */,
+				733A3AFA29D9DEE800FD453E /* Locations.swift in Sources */,
 				73B54AD629D70F7D00F270B1 /* TrakAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
