@@ -10,6 +10,8 @@
 		733A3AF829D9D9DA00FD453E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733A3AF729D9D9DA00FD453E /* Location.swift */; };
 		733A3AFA29D9DEE800FD453E /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733A3AF929D9DEE800FD453E /* Locations.swift */; };
 		733A3AFC29D9E88A00FD453E /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733A3AFB29D9E88A00FD453E /* WorldView.swift */; };
+		733A3AFE29D9F3E000FD453E /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733A3AFD29D9F3E000FD453E /* Tip.swift */; };
+		733A3B0029D9F4DA00FD453E /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733A3AFF29D9F4DA00FD453E /* TipsView.swift */; };
 		73B26F8E29D7157800162C73 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 73B26F8C29D7157800162C73 /* locations.json */; };
 		73B26F8F29D7157800162C73 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 73B26F8D29D7157800162C73 /* tips.json */; };
 		73B54AD629D70F7D00F270B1 /* TrakAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B54AD529D70F7D00F270B1 /* TrakAppApp.swift */; };
@@ -22,6 +24,8 @@
 		733A3AF729D9D9DA00FD453E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		733A3AF929D9DEE800FD453E /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		733A3AFB29D9E88A00FD453E /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		733A3AFD29D9F3E000FD453E /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		733A3AFF29D9F4DA00FD453E /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		73B26F8C29D7157800162C73 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		73B26F8D29D7157800162C73 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		73B54AD229D70F7D00F270B1 /* TrakApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrakApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				73B54AD529D70F7D00F270B1 /* TrakAppApp.swift */,
+				733A3AFD29D9F3E000FD453E /* Tip.swift */,
+				733A3AFF29D9F4DA00FD453E /* TipsView.swift */,
 				733A3AFB29D9E88A00FD453E /* WorldView.swift */,
 				73B26F8C29D7157800162C73 /* locations.json */,
 				73B26F8D29D7157800162C73 /* tips.json */,
@@ -157,6 +163,8 @@
 				73B54AD829D70F7D00F270B1 /* ContentView.swift in Sources */,
 				733A3AF829D9D9DA00FD453E /* Location.swift in Sources */,
 				733A3AFC29D9E88A00FD453E /* WorldView.swift in Sources */,
+				733A3AFE29D9F3E000FD453E /* Tip.swift in Sources */,
+				733A3B0029D9F4DA00FD453E /* TipsView.swift in Sources */,
 				733A3AFA29D9DEE800FD453E /* Locations.swift in Sources */,
 				73B54AD629D70F7D00F270B1 /* TrakAppApp.swift in Sources */,
 			);

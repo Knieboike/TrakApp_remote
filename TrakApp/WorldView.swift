@@ -12,7 +12,7 @@ import SwiftUI
 
 
 struct WorldView: View {
-    // Will receive the environmentObject which was given in the TrakApp
+    // Will receive the environmentObject which was given in the TrakApp (shared values)
     @EnvironmentObject var locations: Locations
     //starting region, @State: Keep Data Alive
     
@@ -23,16 +23,20 @@ struct WorldView: View {
         span: MKCoordinateSpan(latitudeDelta: 40, longitudeDelta: 40)
         )
     var body: some View {
-        //read and write region data using $
+        //read and write region data using $ (two way binding)
         Map(coordinateRegion: $region, annotationItems: locations.places) {
             location in
             //Draw sth. on screen
             MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)){
-                Image(location.country)
-                    .resizable()
-                    .cornerRadius(10)
-                    .frame(width: 80, height: 40)
-                    .shadow(radius: 3)
+                //Link location of Image to location in ContentView
+                NavigationLink(destination: ContentView(location: location)) {
+                    Image(location.country)
+                        .resizable()
+                        .cornerRadius(10)
+                        .frame(width: 80, height: 40)
+                        .shadow(radius: 3)
+                }
+                
             }
         }
             .navigationTitle("Locations")
